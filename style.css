@@ -1,0 +1,27 @@
+html, body {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+}
+
+.alarm {
+  background-color: red;
+}
+
+h1 {
+  position: absolute;
+
+  margin-top: -100px;
+
+  color: white;
+  
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5;
+}
+
+.alarm h1 {
+  opacity: 1;
+  visibility: visible;  
+}
